@@ -197,10 +197,14 @@
 }
 
 .table__text {
-  margin: 0 0 20px 0;
+  margin: 0;
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
+}
+
+.table__text:last-of-type {
+  margin-top: 20px;
 }
 
 .table__text_theme_dark {
