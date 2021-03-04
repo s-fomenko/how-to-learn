@@ -8,13 +8,13 @@
 
 .header {
   position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   min-height: 600px;
   max-height: 756px;
   height: 100vh;
   background-color: #f2f2f2;
-  z-index: 1;
 }
 
 .header__title {
@@ -63,10 +63,10 @@
   position: absolute;
   top: 64px;
   right: 0;
+  z-index: -2;
   width: 568px;
   height: 568px;
   background-color: #2f80ed;
-  z-index: -2;
 }
 
 .logo_place_header {
@@ -140,7 +140,6 @@
 
 .section-title_theme_dark {
   color: #fff;
-  /*z-index: 1;*/
 }
 
 .section-subtitle {
@@ -256,6 +255,7 @@
 
 .kaufman {
   position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -263,16 +263,15 @@
   padding: 90px 0;
   background-color: #1f1f1f;
   overflow: hidden;
-  z-index: 1;
 }
 
 .kaufman__triangle {
   position: absolute;
   top: 0;
   right: -210px;
+  z-index: -1;
   width: 877px;
   height: 877px;
-  z-index: -1;
 }
 
 .footer {
