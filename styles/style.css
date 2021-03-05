@@ -193,7 +193,7 @@
 }
 
 .table__text {
-  margin: 0 0 20px 0;
+  margin: 20px 0 0 0;
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
@@ -289,7 +289,7 @@
   width: 90%;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
