@@ -185,6 +185,36 @@
   font-weight: 400;
 }
 
+.video {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.video__iframes {
+  display: flex;
+  transform: translateY(50px);
+}
+
+.video__iframe {
+  border: 0;
+  width: 515px;
+  height: 316px;
+}
+
+.video__iframe:first-of-type {
+  margin-right: 20px;
+}
+
+.oakley {
+  padding-top: 160px;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
 .digits {
   display: flex;
   flex-direction: column;
