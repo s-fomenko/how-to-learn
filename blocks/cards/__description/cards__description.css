@@ -1,6 +1,7 @@
 .cards__description {
-  text-align: center;
+  margin: 0;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
+  text-align: center;
 }

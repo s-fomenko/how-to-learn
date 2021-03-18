@@ -3,5 +3,8 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
   width: 920px;
+  list-style: none;
 }
